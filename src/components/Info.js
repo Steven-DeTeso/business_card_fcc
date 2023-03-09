@@ -11,7 +11,7 @@ function Info () {
             </div>
             <div className="info-general btns">
                 <button className="info-btn info-btn-email"> <img className="email-img" src={require("../images/Mail.png")}/>Email</button>
-                <button className="info-btn info-btn-linkedin">LinkedIn</button>
+                <button className="info-btn info-btn-linkedin"> <img className="linkedin-img" src={require("../images/linkedin.png")}/>LinkedIn</button>
             </div>
         </div>
     )
