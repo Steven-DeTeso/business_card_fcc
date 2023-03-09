@@ -15,7 +15,6 @@
     width: 550px;
     height: 868px;
     background-color: #23252C;
-    border: 1px solid red;
     margin: auto;
 }
 
@@ -129,4 +128,25 @@ line-height: 150%;
 
 color: #4A4E74;
 padding: 5px 35px 30px 35px;
+}
+
+.footer-general {
+    width: 317px;
+    height: 64px;
+    margin: -4px 117px 0px 116px;
+    background-color: #D5D4DB;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-general > img {
+    width: 25px;
+    height: 25px;
+    padding: 24px 19.5px;
+    
+}
+
+.twitter-img{
+    margin-left: 30px;
 }
