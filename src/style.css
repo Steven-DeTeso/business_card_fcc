@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headshot {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 116px;
+    margin-top: 44px;
+}
+
+.container {
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.info-general {
+    background-color: #F5F5F5;
+    margin: -3px 117px 0px 116px;
+}
+
+.info-name {
+    color: #2B283A;
+    padding-top: 20px;
+    margin: 0px 69px 6px 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.info-job {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F47D27;
+}
+
+.info-website {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+/* identical to box height, or 15px */
+    padding-top: 4px;
+    text-align: center;
+
+    color: #4A4E74;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px
+}
+
+.info-btn {
+    width: 115px;
+    height: 34px;
+}
+
+.info-btn-email {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #374151;
+}
+
+.email-img {
+    margin-right: 8px;
+}
